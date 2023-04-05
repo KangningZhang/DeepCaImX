@@ -14,3 +14,7 @@
 ## Simulated Dataset
 #### Training dataset: https://drive.google.com/file/d/1WZkIE_WA7Qw133t2KtqTESDmxMwsEkjJ/view?usp=share_link
 #### Testing Dataset: https://drive.google.com/file/d/1zsLH8OQ4kTV7LaqQfbPDuMDuWBcHGWcO/view?usp=share_link
+## Experimental Dataset
+#### We used the samples from ABO dataset from https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-
+Observatory-%E2%80%93-Visual-Coding-on-AWS.
+#### The segmentation ground truth of layers 375, 550, 625 are manually labeled by us. The segmentation ground truth of layers 175 and 275 are based on https://github.com/soltanianzadeh/STNeuroNet/tree/master/Markings/ABO.
