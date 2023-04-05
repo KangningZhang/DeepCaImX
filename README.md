@@ -9,7 +9,7 @@
 #### 3. Anaconda
 
 ## Demo
-#### Please check and follow the guide of **LSTM-ISTANet.ipynb** in folder Demo
+#### Please check and follow the guide of "LSTM-ISTANet.ipynb" in folder Demo
 
 ## Simulated Dataset
 #### Training dataset: https://drive.google.com/file/d/1WZkIE_WA7Qw133t2KtqTESDmxMwsEkjJ/view?usp=share_link
@@ -17,6 +17,6 @@
 ## Experimental Dataset
 #### We used the samples from ABO dataset from
 https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS.
-#### The segmentation ground truth can be found in the folder **Manually Labelled ROIs**. 
+#### The segmentation ground truth can be found in the folder "Manually Labelled ROIs". 
 #### The segmentation ground truth of layers 375, 550, 625 are manually labeled by us. 
 #### The segmentation ground truth of layers 175 and 275 are based on the paper "S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust active neuron segmentation in two-photon calcium imaging using spatio-temporal deep-learning," Proceedings of the National Academy of Sciences (PNAS), 116(17), pp. 8554-8563, April 2019. DOI: 10.1073/pnas.1812995116". (https://github.com/soltanianzadeh/STNeuroNet/tree/master/Markings/ABO).
