@@ -17,4 +17,6 @@
 ## Experimental Dataset
 #### We used the samples from ABO dataset from
 https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS.
-#### The segmentation ground truth of layers 375, 550, 625 are manually labeled by us. The segmentation ground truth of layers 175 and 275 are based on https://github.com/soltanianzadeh/STNeuroNet/tree/master/Markings/ABO.
+#### The segmentation ground truth can be found in the folder **Manually Labelled ROIs**. 
+#### The segmentation ground truth of layers 375, 550, 625 are manually labeled by us. 
+#### The segmentation ground truth of layers 175 and 275 are based on https://github.com/soltanianzadeh/STNeuroNet/tree/master/Markings/ABO.
