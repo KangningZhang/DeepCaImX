@@ -9,10 +9,10 @@
 #### 3. Anaconda
 
 ## Demo and installation
-#### Install Anaconda.
-#### Launch Anaconda prompt and install Tensorflow 2.9.0 as the virtual environment.
-#### Download the "LSTM-ISTANet.ipynb" in folder Demo and the simulated dataset. Then, put the training dataset in the path "./LSTM_Dataset/Train/".
-#### Run: Please check and follow the guide of "LSTM-ISTANet.ipynb" in folder "Demo".
+#### 1) Install Anaconda.
+#### 2) Launch Anaconda prompt and install Tensorflow 2.9.0 as the virtual environment.
+#### 3) Download the "LSTM-ISTANet.ipynb" in folder Demo and the simulated dataset in the folder "Simulated dataset". Then, create and put the training dataset in the path "./LSTM_Dataset/Train/".
+#### 4) Run: Use Anaconda to launch the virtual environment and open "LSTM-ISTANet.ipynb". Then, please check and follow the guide of "LSTM-ISTANet.ipynb" for training and testing.
 
 ## Simulated Dataset
 #### Training dataset: https://drive.google.com/file/d/1WZkIE_WA7Qw133t2KtqTESDmxMwsEkjJ/view?usp=share_link
