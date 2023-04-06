@@ -15,6 +15,7 @@
 #### 4) Run: Use Anaconda to launch the virtual environment and open "LSTM-ISTANet.ipynb". Then, please check and follow the guide of "LSTM-ISTANet.ipynb" for training and testing.
 
 ## Simulated Dataset
+#### Dataset generator: The algorithm for generating simulated dataset is based on the paper of FISSA (_Keemink, S.W., Lowe, S.C., Pakan, J.M.P. et al. FISSA: A neuropil decontamination toolbox for calcium imaging signals. Sci Rep 8, 3493 (2018). https://doi.org/10.1038/s41598-018-21640-2_) and SimCalc repository (https://github.com/rochefort-lab/SimCalc/). The code for our paper also includes ROIs from some experimental samples (Please check the section Experimental Dataset). For the code used to generate the simulated data, please download the documents in the folder "Simulated Dataset Generator". 
 #### Training dataset: https://drive.google.com/file/d/1WZkIE_WA7Qw133t2KtqTESDmxMwsEkjJ/view?usp=share_link
 #### Testing Dataset: https://drive.google.com/file/d/1zsLH8OQ4kTV7LaqQfbPDuMDuWBcHGWcO/view?usp=share_link
 ## Experimental Dataset
