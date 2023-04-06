@@ -25,3 +25,4 @@ https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-
 #### The segmentation ground truth can be found in the folder "Manually Labelled ROIs". 
 #### The segmentation ground truth of layers 375, 550, 625 are manually labeled by us. 
 #### The segmentation ground truth of layers 175 and 275 are based on the paper _S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust active neuron segmentation in two-photon calcium imaging using spatio-temporal deep-learning," Proceedings of the National Academy of Sciences (PNAS), 116(17), pp. 8554-8563, April 2019. DOI: 10.1073/pnas.1812995116_. (https://github.com/soltanianzadeh/STNeuroNet/tree/master/Markings/ABO).
+#### The code for creating ground truth of extracted traces can be found in "Prepro_Exp_Sample.ipynb" in the folder "Preprocessing Experimental Sample".
