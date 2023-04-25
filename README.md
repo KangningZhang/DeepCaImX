@@ -13,7 +13,8 @@
 #### 2) Launch Anaconda prompt and install Tensorflow 2.9.0 as the virtual environment.
 #### 3) Open the virtual environment, and then  pip install mat73, opencv-python, python-time and scipy.
 #### 4) Download the "LSTM-ISTANet.ipynb" in folder "Demo" and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./LSTM_Dataset/Train/".
-#### 4) Run: Use Anaconda to launch the virtual environment and open "LSTM-ISTANet.ipynb". Then, please check and follow the guide of "LSTM-ISTANet.ipynb" for training and testing.
+#### 5) Run: Use Anaconda to launch the virtual environment and open "LSTM-ISTANet.ipynb". Then, please check and follow the guide of "LSTM-ISTANet.ipynb" for training and testing.
+#### Note: Every package can be installed in a few minutes.
 
 ## Simulated Dataset
 #### Dataset generator: The algorithm for generating simulated dataset is based on the paper of FISSA (_Keemink, S.W., Lowe, S.C., Pakan, J.M.P. et al. FISSA: A neuropil decontamination toolbox for calcium imaging signals. Sci Rep 8, 3493 (2018). https://doi.org/10.1038/s41598-018-21640-2_) and SimCalc repository (https://github.com/rochefort-lab/SimCalc/). For the code used to generate the simulated data, please download the documents in the folder "Simulated Dataset Generator". 
