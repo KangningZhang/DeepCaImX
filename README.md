@@ -6,7 +6,7 @@
 ## System and Environment Requirements
 #### 1. At least 6 GB momory of GPU/CPU is required. A CUDA compatible GPU is preferred. In our demo of full version, we use a GPU of Quadro RTX8000 48GB.
 #### 2. Python 3.x and Tensorflow 2.9.0
-#### 3. Virtual environment: tAnaconda
+#### 3. Virtual environment: Anaconda
 
 ## Demo and installation
 #### 1) (_Optional_) GPU environment setup. We need a Nvidia parallel computing platform and programming model called _CUDA Toolkit_ and a GPU-accelerated library of primitives for deep neural networks called _CUDA Deep Neural Network library (cuDNN)_ to build up a GPU supported environment for training and testing our model. The link of CUDA installation guide is https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html and the link of cuDNN installation guide is https://docs.nvidia.com/deeplearning/cudnn/installation/overview.html. 
