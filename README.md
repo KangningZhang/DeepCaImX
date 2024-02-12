@@ -3,10 +3,10 @@
 #### Two-photon calcium imaging provides large-scale recordings of neuronal activities in cellular resolution. A robust, automated and high speed pipeline to segment the spatial footprints of neurons, extract the temporal activity traces and decontaminate them from background, noise and overlapping neurons is highly desirable to analyze the calcium imaging data. In this paper, we demonstrate Long-Short-Term-Memory based Iterative Shrinkage-Thresholding Algorithm (LSTM-ISTA), an end-to-end deep learning method to achieve the above goals altogether in a very high speed and without any manual-tuned hyper-parameter. LSTM-ISTA is a multi-task, multi-class and multi-label segmentation method, composed of a compressed-sensing-inspired neural network with a recurrent layer and fully connected layers. It represents the first neural network that can simultaneously generate accurate neuronal footprints and extract clean neuronal activity traces from calcium imaging data. We trained the neural network through simulation dataset, and benchmarked it against existing state-of-the-art methods through in-vivo experimental data. LSTM-ISTA outperforms existing methods in the quality of segmentation and temporal traces extraction, and processing speed. LSTM-ISTA is highly scalable and will benefit the analysis of mesoscale calcium imaging. 
 ![alt text](https://github.com/KangningZhang/LSTM-ISTA-for-Calcium-Imaging-Data/blob/main/Figures/Fig1.png)
 
-## System Requirements
+## System and Environment Requirements
 #### 1. At least 6 GB momory of GPU/CPU is required. A CUDA compatible GPU is preferred. In our demo of full version, we use a GPU of Quadro RTX8000 48GB.
 #### 2. Python 3.x and Tensorflow 2.9.0
-#### 3. Anaconda
+#### 3. Virtual environment: tAnaconda
 
 ## Demo and installation
 #### 1) (_Optional_) GPU environment setup. We need a Nvidia parallel computing platform and programming model called _CUDA Toolkit_ and a GPU-accelerated library of primitives for deep neural networks called _CUDA Deep Neural Network library (cuDNN)_ to build up a GPU supported environment for training and testing our model. The link of CUDA installation guide is https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html and the link of cuDNN installation guide is https://docs.nvidia.com/deeplearning/cudnn/installation/overview.html. 
