@@ -14,7 +14,7 @@
 #### 3) Launch Anaconda prompt and install Python 3.x and Tensorflow 2.9.0 as the virtual environment.
 #### 4) Open the virtual environment, and then  pip install mat73, opencv-python, python-time and scipy.
 #### 5) Download the "LSTM-ISTANet.ipynb" in folder "Demo" for a full version and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./LSTM_Dataset/Train/". If there is a limitation on your computing resource or a quick test on our code, we highly recommand download the demo from the folder "Mini-version", which only requires around 6.3 GB momory in training. 
-#### 6) Run: Use Anaconda to launch the virtual environment and open "LSTM-ISTANet.ipynb". Then, please check and follow the guide of "LSTM-ISTANet.ipynb" for training and testing.
+#### 6) Run: Use Anaconda to launch the virtual environment and open "DeepCaImX_training_demo.ipynb" or "DeepCaImX_testing_demo.ipynb". Then, please check and follow the guide of "DeepCaImX_training_demo.ipynb" or or "DeepCaImX_testing_demo.ipynb" for training or testing respectively.
 #### Note: Every package can be installed in a few minutes.
 
 ## Simulated Dataset
