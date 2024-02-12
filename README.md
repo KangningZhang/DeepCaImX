@@ -10,7 +10,7 @@
 
 ## Demo and installation
 #### 1) (_Optional_) GPU environment setup. We need a Nvidia parallel computing platform and programming model called _CUDA Toolkit_ and a GPU-accelerated library of primitives for deep neural networks called _CUDA Deep Neural Network library (cuDNN)_ to build up a GPU supported environment for training and testing our model. The link of CUDA installation guide is https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html and the link of cuDNN installation guide is https://docs.nvidia.com/deeplearning/cudnn/installation/overview.html. 
-#### 2) Install Anaconda. Link: https://docs.anaconda.com/free/anaconda/install/index.html
+#### 2) Install Anaconda. Link of installation guide: https://docs.anaconda.com/free/anaconda/install/index.html
 #### 3) Launch Anaconda prompt and install Python 3.x and Tensorflow 2.9.0 as the virtual environment.
 #### 4) Open the virtual environment, and then  pip install mat73, opencv-python, python-time and scipy.
 #### 5) Download the "LSTM-ISTANet.ipynb" in folder "Demo" and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./LSTM_Dataset/Train/".
