@@ -4,7 +4,7 @@
 ![alt text](https://github.com/KangningZhang/LSTM-ISTA-for-Calcium-Imaging-Data/blob/main/Figures/Fig1.png)
 
 ## System Requirements
-#### 1. (_optional for GPU acceleration_) At least 6 GB momory of GPU/CPU is required. A CUDA compatible GPU is preferred. In our demo of full version, we use a GPU of Quadro RTX8000 48GB.
+#### 1. At least 6 GB momory of GPU/CPU is required. A CUDA compatible GPU is preferred. In our demo of full version, we use a GPU of Quadro RTX8000 48GB.
 #### 2. Python 3.x and Tensorflow 2.9.0
 #### 3. Anaconda
 
