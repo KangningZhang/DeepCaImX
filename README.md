@@ -9,13 +9,18 @@
 #### 3. Virtual environment: Anaconda
 
 ## Demo and installation
-#### 1) (_Optional_) GPU environment setup. We need a Nvidia parallel computing platform and programming model called _CUDA Toolkit_ and a GPU-accelerated library of primitives for deep neural networks called _CUDA Deep Neural Network library (cuDNN)_ to build up a GPU supported environment for training and testing our model. The link of CUDA installation guide is https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html and the link of cuDNN installation guide is https://docs.nvidia.com/deeplearning/cudnn/installation/overview.html. 
-#### 2) Install Anaconda. Link of installation guide: https://docs.anaconda.com/free/anaconda/install/index.html
-#### 3) Launch Anaconda prompt and install Python 3.x and Tensorflow 2.9.0 as the virtual environment.
-#### 4) Open the virtual environment, and then  pip install mat73, opencv-python, python-time and scipy.
-#### 5) Download the "LSTM-ISTANet.ipynb" in folder "Demo" for a full version and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./LSTM_Dataset/Train/". If there is a limitation on your computing resource or a quick test on our code, we highly recommand download the demo from the folder "Mini-version", which only requires around 6.3 GB momory in training. 
-#### 6) Run: Use Anaconda to launch the virtual environment and open "DeepCaImX_training_demo.ipynb" or "DeepCaImX_testing_demo.ipynb". Then, please check and follow the guide of "DeepCaImX_training_demo.ipynb" or or "DeepCaImX_testing_demo.ipynb" for training or testing respectively.
+#### 1 (_Optional_) GPU environment setup. We need a Nvidia parallel computing platform and programming model called _CUDA Toolkit_ and a GPU-accelerated library of primitives for deep neural networks called _CUDA Deep Neural Network library (cuDNN)_ to build up a GPU supported environment for training and testing our model. The link of CUDA installation guide is https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html and the link of cuDNN installation guide is https://docs.nvidia.com/deeplearning/cudnn/installation/overview.html. 
+#### 2 Install Anaconda. Link of installation guide: https://docs.anaconda.com/free/anaconda/install/index.html
+#### 3 Launch Anaconda prompt and install Python 3.x and Tensorflow 2.9.0 as the virtual environment.
+#### 4 Open the virtual environment, and then  pip install mat73, opencv-python, python-time and scipy.
+#### 5 Download the "LSTM-ISTANet.ipynb" in folder "Demo" for a full version and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./LSTM_Dataset/Train/". If there is a limitation on your computing resource or a quick test on our code, we highly recommand download the demo from the folder "Mini-version", which only requires around 6.3 GB momory in training. 
+#### 6 Run: Use Anaconda to launch the virtual environment and open "DeepCaImX_training_demo.ipynb" or "DeepCaImX_testing_demo.ipynb". Then, please check and follow the guide of "DeepCaImX_training_demo.ipynb" or or "DeepCaImX_testing_demo.ipynb" for training or testing respectively.
 #### Note: Every package can be installed in a few minutes.
+
+## Run DeepCaImX
+#### 1. Mini-version demo
+##### 1.1 Download all the documents in the folder of demo (mini-version)
+##### 1.2 
 
 ## Simulated Dataset
 #### Dataset generator (FISSA Version): The algorithm for generating simulated dataset is based on the paper of FISSA (_Keemink, S.W., Lowe, S.C., Pakan, J.M.P. et al. FISSA: A neuropil decontamination toolbox for calcium imaging signals. Sci Rep 8, 3493 (2018)_) and SimCalc repository (https://github.com/rochefort-lab/SimCalc/). For the code used to generate the simulated data, please download the documents in the folder "Simulated Dataset Generator". 
