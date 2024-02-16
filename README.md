@@ -5,10 +5,11 @@
 
 ## System and Environment Requirements
 #### 1. Both CPU and GPU are supported to run the code of DeepCaImX. A CUDA compatible GPU is preferred. 
-* In our demo of full version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
-* In our demo of full version,  ~6 GB momory of GPU/CPU is required.
+* In our demo of full-version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
+* In our demo of mini-version, at least 6 GB momory of GPU/CPU is required.
 #### 2. Python 3.x and Tensorflow 2.9.0
 #### 3. Virtual environment: Anaconda Navigator 2.2.0
+#### 4. Matlab 2023a
 
 ## Demo and installation
 #### 1 (_Optional_) GPU environment setup. We need a Nvidia parallel computing platform and programming model called _CUDA Toolkit_ and a GPU-accelerated library of primitives for deep neural networks called _CUDA Deep Neural Network library (cuDNN)_ to build up a GPU supported environment for training and testing our model. The link of CUDA installation guide is https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html and the link of cuDNN installation guide is https://docs.nvidia.com/deeplearning/cudnn/installation/overview.html. 
@@ -32,6 +33,8 @@
 * (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
 * Using Anaconda Navigator to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
 
+## Data Tailor
+#### A data tailor developed by Matlab is provided to support a basic data tiling processing. In the folder of "Data Tailor", we can find a "tailor.m" script and an example "test.tiff". After running "tailor.m" by matlab, the use is able to choose a "tiff" file from a GUI as loading the sample to be tiled. Settings include size of FOV, overlapping area, normalization option, name of output file and output data format. The output files can be found at local folder, which is at the same folder as the "tailor.m".
 
 ## Simulated Dataset
 #### Dataset generator (FISSA Version): The algorithm for generating simulated dataset is based on the paper of FISSA (_Keemink, S.W., Lowe, S.C., Pakan, J.M.P. et al. FISSA: A neuropil decontamination toolbox for calcium imaging signals. Sci Rep 8, 3493 (2018)_) and SimCalc repository (https://github.com/rochefort-lab/SimCalc/). For the code used to generate the simulated data, please download the documents in the folder "Simulated Dataset Generator". 
