@@ -5,10 +5,10 @@
 
 ## System and Environment Requirements
 #### 1. Both CPU and GPU are supported to run the code of DeepCaImX. A CUDA compatible GPU is preferred. 
-* 1.1 In our demo of full version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
-##### 1.2 In our demo of full version,  ~6 GB momory of GPU/CPU is required.
+* In our demo of full version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
+* In our demo of full version,  ~6 GB momory of GPU/CPU is required.
 #### 2. Python 3.x and Tensorflow 2.9.0
-#### 3. Virtual environment: Anaconda
+#### 3. Virtual environment: Anaconda Navigator 2.2.0
 
 ## Demo and installation
 #### 1 (_Optional_) GPU environment setup. We need a Nvidia parallel computing platform and programming model called _CUDA Toolkit_ and a GPU-accelerated library of primitives for deep neural networks called _CUDA Deep Neural Network library (cuDNN)_ to build up a GPU supported environment for training and testing our model. The link of CUDA installation guide is https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html and the link of cuDNN installation guide is https://docs.nvidia.com/deeplearning/cudnn/installation/overview.html. 
@@ -21,16 +21,16 @@
 
 ## Run DeepCaImX
 #### 1. Mini-version demo
-##### 1.1 Download all the documents in the folder of "Demo (mini-version)".
-##### 1.2 Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
-##### 1.3 (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
-##### 1.4 Using Anaconda to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
+* 1.1 Download all the documents in the folder of "Demo (mini-version)".
+* 1.2 Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
+* 1.3 (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
+* 1.4 Using Anaconda Navigator to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
 
 #### 2. Full-version demo
-##### 1.1 Download all the documents in the folder of "Demo (full-version)".
-##### 1.2 Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
-##### 1.3 (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
-##### 1.4 Using Anaconda to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
+* Download all the documents in the folder of "Demo (full-version)".
+* Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
+* (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
+* Using Anaconda Navigator to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
 
 
 ## Simulated Dataset
