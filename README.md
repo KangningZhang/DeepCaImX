@@ -21,10 +21,10 @@
 
 ## Run DeepCaImX
 #### 1. Mini-version demo
-* 1.1 Download all the documents in the folder of "Demo (mini-version)".
-* 1.2 Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
-* 1.3 (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
-* 1.4 Using Anaconda Navigator to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
+* Download all the documents in the folder of "Demo (mini-version)".
+* Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
+* (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
+* Using Anaconda Navigator to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
 
 #### 2. Full-version demo
 * Download all the documents in the folder of "Demo (full-version)".
