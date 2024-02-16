@@ -4,7 +4,9 @@
 ![alt text](https://github.com/KangningZhang/DeepCaImX/blob/main/imgs/Fig1.png)
 
 ## System and Environment Requirements
-#### 1. At least 6 GB momory of GPU/CPU is required. A CUDA compatible GPU is preferred. In our demo of full version, we use a GPU of Quadro RTX8000 48GB.
+#### 1. Both CPU and GPU are supported to run the code of DeepCaImX. A CUDA compatible GPU is preferred. 
+##### 1.1 In our demo of full version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
+##### 1.2 In our demo of full version,  ~6 GB momory of GPU/CPU is required.
 #### 2. Python 3.x and Tensorflow 2.9.0
 #### 3. Virtual environment: Anaconda
 
@@ -19,8 +21,17 @@
 
 ## Run DeepCaImX
 #### 1. Mini-version demo
-##### 1.1 Download all the documents in the folder of demo (mini-version)
-##### 1.2 
+##### 1.1 Download all the documents in the folder of "Demo (mini-version)".
+##### 1.2 Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
+##### 1.3 (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
+##### 1.4 Using Anaconda to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
+
+#### 2. Full-version demo
+##### 1.1 Download all the documents in the folder of "Demo (full-version)".
+##### 1.2 Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
+##### 1.3 (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
+##### 1.4 Using Anaconda to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
+
 
 ## Simulated Dataset
 #### Dataset generator (FISSA Version): The algorithm for generating simulated dataset is based on the paper of FISSA (_Keemink, S.W., Lowe, S.C., Pakan, J.M.P. et al. FISSA: A neuropil decontamination toolbox for calcium imaging signals. Sci Rep 8, 3493 (2018)_) and SimCalc repository (https://github.com/rochefort-lab/SimCalc/). For the code used to generate the simulated data, please download the documents in the folder "Simulated Dataset Generator". 
