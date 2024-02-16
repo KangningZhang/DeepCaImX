@@ -34,7 +34,7 @@
 * Using Anaconda Navigator to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
 
 ## Data Tailor
-#### A data tailor developed by Matlab is provided to support a basic data tiling processing. In the folder of "Data Tailor", we can find a "tailor.m" script and an example "test.tiff". After running "tailor.m" by matlab, the use is able to choose a "tiff" file from a GUI as loading the sample to be tiled. Settings include size of FOV, overlapping area, normalization option, name of output file and output data format. The output files can be found at local folder, which is at the same folder as the "tailor.m".
+#### A data tailor developed by Matlab is provided to support a basic data tiling processing. In the folder of "Data Tailor", we can find a "tailor.m" script and an example "test.tiff". After running "tailor.m" by matlab, user is able to choose a "tiff" file from a GUI as loading the sample to be tiled. Settings include size of FOV, overlapping area, normalization option, name of output file and output data format. The output files can be found at local folder, which is at the same folder as the "tailor.m".
 
 ## Simulated Dataset
 #### Dataset generator (FISSA Version): The algorithm for generating simulated dataset is based on the paper of FISSA (_Keemink, S.W., Lowe, S.C., Pakan, J.M.P. et al. FISSA: A neuropil decontamination toolbox for calcium imaging signals. Sci Rep 8, 3493 (2018)_) and SimCalc repository (https://github.com/rochefort-lab/SimCalc/). For the code used to generate the simulated data, please download the documents in the folder "Simulated Dataset Generator". 
