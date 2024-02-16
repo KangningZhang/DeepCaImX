@@ -5,7 +5,7 @@
 
 ## System and Environment Requirements
 #### 1. Both CPU and GPU are supported to run the code of DeepCaImX. A CUDA compatible GPU is preferred. 
-##### 1.1 In our demo of full version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
+* 1.1 In our demo of full version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
 ##### 1.2 In our demo of full version,  ~6 GB momory of GPU/CPU is required.
 #### 2. Python 3.x and Tensorflow 2.9.0
 #### 3. Virtual environment: Anaconda
