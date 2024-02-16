@@ -16,7 +16,7 @@
 #### 2 Install Anaconda. Link of installation guide: https://docs.anaconda.com/free/anaconda/install/index.html
 #### 3 Launch Anaconda prompt and install Python 3.x and Tensorflow 2.9.0 as the virtual environment.
 #### 4 Open the virtual environment, and then  pip install mat73, opencv-python, python-time and scipy.
-#### 5 Download the "LSTM-ISTANet.ipynb" in folder "Demo" for a full version and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./LSTM_Dataset/Train/". If there is a limitation on your computing resource or a quick test on our code, we highly recommand download the demo from the folder "Mini-version", which only requires around 6.3 GB momory in training. 
+#### 5 Download the "DeepCaImX_training_demo.ipynb" in folder "Demo (full-version)" for a full version and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./Training Dataset/". If there is a limitation on your computing resource or a quick test on our code, we highly recommand download the demo from the folder "Mini-version", which only requires around 6.3 GB momory in training. 
 #### 6 Run: Use Anaconda to launch the virtual environment and open "DeepCaImX_training_demo.ipynb" or "DeepCaImX_testing_demo.ipynb". Then, please check and follow the guide of "DeepCaImX_training_demo.ipynb" or or "DeepCaImX_testing_demo.ipynb" for training or testing respectively.
 #### Note: Every package can be installed in a few minutes.
 
@@ -46,6 +46,6 @@
 #### We used the samples from ABO dataset:
 https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS.
 #### The segmentation ground truth can be found in the folder "Manually Labelled ROIs". 
-#### The segmentation ground truth of layers 375, 550, 625 are manually labeled by us. 
-#### The segmentation ground truth of layers 175 and 275 are based on the paper _S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust active neuron segmentation in two-photon calcium imaging using spatio-temporal deep-learning," Proceedings of the National Academy of Sciences (PNAS), 116(17), pp. 8554-8563, April 2019. DOI: 10.1073/pnas.1812995116_. (https://github.com/soltanianzadeh/STNeuroNet/tree/master/Markings/ABO).
+#### The segmentation ground truth of depth 175, 275, 375, 550 and 625 um are manually labeled by us. 
+#### The segmentation ground truth of layers 175 and 275 are assisted by the paper _S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust active neuron segmentation in two-photon calcium imaging using spatio-temporal deep-learning," Proceedings of the National Academy of Sciences (PNAS), 116(17), pp. 8554-8563, April 2019. DOI: 10.1073/pnas.1812995116_. (https://github.com/soltanianzadeh/STNeuroNet/tree/master/Markings/ABO).
 #### The code for creating ground truth of extracted traces can be found in "Prepro_Exp_Sample.ipynb" in the folder "Preprocessing of Experimental Sample".
