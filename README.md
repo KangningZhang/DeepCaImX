@@ -54,6 +54,15 @@
 #### Testing Dataset: https://drive.google.com/file/d/1zsLH8OQ4kTV7LaqQfbPDuMDuWBcHGWcO/view?usp=share_link
 
 #### 2. Dataset generator (NAOMi Version): The algorithm for generating simulated dataset is based on the paper of NAOMi (_Song, A., Gauthier, J. L., Pillow, J. W., Tank, D. W. & Charles, A. S. Neural anatomy and optical microscopy (NAOMi) simulation for evaluating calcium imaging methods. Journal of neuroscience methods 358, 109173 (2021)_). For the code use to generate the simulated data, please go to this link: https://bitbucket.org/adamshch/naomi_sim/src/master/code/
+
+#### How to run our modified code
+#### (1) Run ‘Naomi_275mm_demo/TPM_Simulation_Script.m’. It’s used to generate raw video
+#### (2) Run ‘Naomi_275mm_demo/ generate_soma_video.m’. It’s used to generate corresponding videos with soma only. For each neuron trace, no baseline is included.
+#### (3) Run ‘generate_training_pairs.m’. It’s used to resize each raw video and soma video to be 64*64*400. Then generate the corresponding mask ground truth for each training pairs.
+#### (4) Run ‘generate_mask_clips_training_pairs.m’. Generate the trace ground truth by multiplying mask with soma video.
+#### (5) Run ‘sort_mask_trace2.m’. Sorting the mask and trace based on which one comes the first spike. By the end of this step, you will get the final mask and trace files used for training.
+#### (6) Run ‘generate_video_clips_mat’. Save the raw video and it’s corresponding denoised ground truth. By the end of this step, you will get the final raw video and clean video files used for training.
+
 #### Training dataset: https://drive.google.com/drive/folders/1ANOOVpyqoAQrv0FFetnZB2PDwlDM0C7l?usp=sharing
 #### Testing dataset: https://drive.google.com/drive/folders/1O6dGCelX0lti1ohvwf3xYpGOeSJkf4KH?usp=sharing
 
