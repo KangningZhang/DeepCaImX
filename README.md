@@ -24,7 +24,10 @@
 #### We highly recommend to use NAOMi method for generating simulated training and testing dataset. Please check the code in the folder "Simulated Dataset Generator/NAOMi". We high recommand you create your own dataset according to your experiment settings, because the specific DeepCaImX model owns a critical requirement on the types of dataset. The principle of data with ground truth generation are as follows:
 #### 1. Settings of calcium imaging depth in NAOMi code is very important. Please follow your experiment situation. Besides, the signal-to-background ratio is also important. Please fell free to tune the factor of the spike intensity in the NAOMi code to match your experiment situations.
 #### 2. In our project, the generation of denoise, background-suppressed data should merely keep the traces activity of soma in the temporal information (i.e, no background and dentrite activity included), then run the scanning section in the NAOMi code. This output will give you the ground truth of denoised, background-suppressed data.
-#### 3. In this paper, the input of DeepCaImX (which is )
+#### 3. In this paper, the input of DeepCaImX (which is the raw recordings) should be normalized to 0~1, the denoised BG-suppressed ground truth should be normalized based on the factors of the normalization from the raw recordings.
+#### 4. The ording of the ROIs segmentation ground truth should be critically obey the order when each indivial neuron first appears, since DeepCaImX is a multi-class segmentation.
+#### 5. The ground truth of the neuron activity traces should not contain any baseline, and merely represent the activity of soma.
+Notes: more operation can be found in the section of Dataset generator (NAOMi Version).
 
 
 
