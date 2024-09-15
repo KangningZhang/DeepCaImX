@@ -2,7 +2,7 @@
 ## Introduction
 #### Two-photon calcium imaging provides large-scale recordings of neuronal activities at cellular resolution. A robust, automated and high-speed pipeline to simultaneously segment the spatial footprints of neurons and extract their temporal activity traces while decontaminating them from background, noise and overlapping neurons is highly desirable to analyze calcium imaging data. In this paper, we demonstrate DeepCaImX, an end-to-end deep learning method based on an iterative shrinkage-thresholding algorithm and a long-short-term-memory neural network to achieve the above goals altogether at a very high speed and without any manually tuned hyper-parameters. DeepCaImX is a multi-task, multi-class and multi-label segmentation method composed of a compressed-sensing-inspired neural network with a recurrent layer and fully connected layers. It represents the first neural network that can simultaneously generate accurate neuronal footprints and extract clean neuronal activity traces from calcium imaging data. We trained the neural network with simulated datasets and benchmarked it against existing state-of-the-art methods with in vivo experimental data. DeepCaImX outperforms existing methods in the quality of segmentation and temporal trace extraction as well as processing speed. DeepCaImX is highly scalable and will benefit the analysis of mesoscale calcium imaging. 
 ![alt text](https://github.com/KangningZhang/DeepCaImX/blob/main/imgs/Fig1.png)
-
+#### Please feel free to contact us if you have any concerns (knzhang@ucdavis.edu or knzhang@stanford.edu)
 ## System and Environment Requirements
 #### 1. Both CPU and GPU are supported to run the code of DeepCaImX. A CUDA compatible GPU is preferred. 
 * In our demo of full-version, we use a GPU of Quadro RTX8000 48GB to accelerate the training speed.
@@ -28,7 +28,7 @@
 #### 4. The ording of the ROIs segmentation ground truth should be critically obey the order when each indivial neuron first appears, since DeepCaImX is a multi-class segmentation.
 #### 5. The ground truth of the neuron activity traces should not contain any baseline, and merely represent the activity of soma.
 #### Note: more operations for generator code can be found in the section of Dataset generator (NAOMi Version).
-
+### Notice!!!!: Only have raw video or "clean" video but hardly get the ground truth of ROIs or Traces? Don't worry, we plan to post a nova script to segment ROIs and extract traces even if you cannot get them as ground truth. The release data is on Oct. 15th with some other minor modification. We will keep maintaining our toolbox and provide our best servce!
 
 
 ## Run DeepCaImX
@@ -72,3 +72,7 @@ https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-
 #### The segmentation ground truth can be found in the folder "Manually Labelled ROIs". 
 #### The segmentation ground truth of depth 175, 275, 375, 550 and 625 um are manually labeled by us. 
 #### The code for creating ground truth of extracted traces can be found in "Prepro_Exp_Sample.ipynb" in the folder "Preprocessing of Experimental Sample".
+
+
+## Acknowledge
+#### Please receive my GREATEST RESPECT for Yifei's cleaning up job and Dr. Yang's supervision work. Please also let me express my appreciated to everyone who share me your precious comments on our work.
