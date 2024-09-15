@@ -27,7 +27,7 @@
 #### 3. In this paper, the input of DeepCaImX (which is the raw recordings) should be normalized to 0~1, the denoised BG-suppressed ground truth should be normalized based on the factors of the normalization from the raw recordings.
 #### 4. The ording of the ROIs segmentation ground truth should be critically obey the order when each indivial neuron first appears, since DeepCaImX is a multi-class segmentation.
 #### 5. The ground truth of the neuron activity traces should not contain any baseline, and merely represent the activity of soma.
-Notes: more operation can be found in the section of Dataset generator (NAOMi Version).
+#### Note: more operations for generator code can be found in the section of Dataset generator (NAOMi Version).
 
 
 
@@ -54,6 +54,9 @@ Notes: more operation can be found in the section of Dataset generator (NAOMi Ve
 #### Testing Dataset: https://drive.google.com/file/d/1zsLH8OQ4kTV7LaqQfbPDuMDuWBcHGWcO/view?usp=share_link
 
 #### 2. Dataset generator (NAOMi Version): The algorithm for generating simulated dataset is based on the paper of NAOMi (_Song, A., Gauthier, J. L., Pillow, J. W., Tank, D. W. & Charles, A. S. Neural anatomy and optical microscopy (NAOMi) simulation for evaluating calcium imaging methods. Journal of neuroscience methods 358, 109173 (2021)_). For the code use to generate the simulated data, please go to this link: https://bitbucket.org/adamshch/naomi_sim/src/master/code/
+#### Training dataset: https://drive.google.com/drive/folders/1ANOOVpyqoAQrv0FFetnZB2PDwlDM0C7l?usp=sharing
+#### Testing dataset: https://drive.google.com/drive/folders/1O6dGCelX0lti1ohvwf3xYpGOeSJkf4KH?usp=sharing
+
 ## Experimental Dataset
 #### We used the samples from ABO dataset:
 https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS.
