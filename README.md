@@ -19,8 +19,9 @@
 #### 5 Download the "DeepCaImX_training_demo.ipynb" in folder "Demo (full-version)" for a full version and the simulated dataset via the google drive link. Then, create and put the training dataset in the path "./Training Dataset/". If there is a limitation on your computing resource or a quick test on our code, we highly recommand download the demo from the folder "Mini-version", which only requires around 6.3 GB momory in training. 
 #### 6 Run: Use Anaconda to launch the virtual environment and open "DeepCaImX_training_demo.ipynb" or "DeepCaImX_testing_demo.ipynb". Then, please check and follow the guide of "DeepCaImX_training_demo.ipynb" or or "DeepCaImX_testing_demo.ipynb" for training or testing respectively.
 #### Note: Every package can be installed in a few minutes.
+
 ## Data preparing
-### We highly recommend to use NAOMi method for generating simulated training and testing dataset. Please check the code in the folder
+### We highly recommend to use NAOMi method for generating simulated training and testing dataset. Please check the code in the folder "simulated data generator/NAOMi"
 
 
 ## Run DeepCaImX
