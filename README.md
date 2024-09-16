@@ -28,7 +28,8 @@
 #### 4. The order of the ROIs segmentation ground truth should critically obey the order when each indivial neuron first appears, since DeepCaImX is a multi-class segmentation.
 #### 5. The ground truth of the neuron activity traces should not contain any baseline, and merely represent the activity of soma.
 #### Note: more operations for generator code can be found in the section of Dataset generator (NAOMi Version).
-### Notice: The extraction of the ground truth ROIs and activity traces from NAOMi training dataset could be obtained from the code in "Simulated Data Generator/NAOMi", but we highly encourage you to train DeepCaImX based on your only experiment settings or objects, even if your experiment are quit different from the principles of NAOMi. To create an innovative, inclusive, and instructive environment, we also plan to release an alternative unsupervised learning approach to obtain the output of ROIs or traces if you hardly obtain these ground truths from your experiment on Oct 15. We will keep our toolboxs maintained and updated. Please stay tuned!
+
+### Notice: The extraction of the ground truth ROIs and activity traces from NAOMi training dataset could be obtained from the code in "Simulated Data Generator/NAOMi", but we highly encourage you to train DeepCaImX based on your only experiment settings or objects, even if your experiment are quit different from the principles of NAOMi. To create an innovative, inclusive, and instructive environment, we also plan to release an unsupervised learning approach attached on the framework of DeepCaImX to obtain the output of ROIs or traces without training on ROIs or traces ground truth in the case that you hardly obtain these ground truths from your experiment on Oct 15. We will keep our toolboxs maintained and updated. Please stay tuned!
 
 ## Run DeepCaImX
 #### 1. Mini-version demo
