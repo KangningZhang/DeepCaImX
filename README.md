@@ -22,7 +22,7 @@
 
 ## Training dataset preparing
 #### We highly recommend using the NAOMi method for generating simulated training datasets. Please refer to the code in the “Simulated Dataset Generator/NAOMi” folder. As a supervised learning approach, the closer the properties of the training dataset are to the real experimental data, the higher the performance of DeepCalmX. Thus we strongly advise setting the parameters in the NAOMi appropriately so the generated videos are tailored to the experimental conditions.  The principles for generating data with ground truth are as follow:
-#### 1. The settings for calcium imaging depth in the NAOMi code are important. Please adjust them according to your experimental conditions. Additionally, the signal-to-background ratio is important. Please you tune the spike intensity factor in the NAOMi code to match your experimental situations.
+#### 1. The settings for calcium imaging depth in the NAOMi code are important. Please adjust them according to your experimental conditions. Additionally, the signal-to-background ratio is important. Please tune the spike intensity factor in the NAOMi code to match your experimental situations.
 #### 2. In our project, the generation of denoised, background-suppressed data should retain only the trace activity of the soma in the temporal information (i.e., excluding background and dendrite activity). After this, run the scanning section in the NAOMi code. This output will provide you with the ground truth of denoised, background-suppressed data.
 #### 3. The input to DeepCaImX (i.e., the raw recordings) should be normalized to a range of 0 to 1. The denoised, background-suppressed ground truth should be normalized using the same factors applied to the raw recordings.
 #### 4. The order of the ROIs segmentation ground truth must strictly follow the sequence in which each individual neuron first appears, as DeepCaImX performs multi-class segmentation.
@@ -73,5 +73,5 @@ https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-
 #### The code for creating ground truth of extracted traces can be found in "Prepro_Exp_Sample.ipynb" in the folder "Preprocessing of Experimental Sample".
 
 
-## Acknowledge
+## Acknowledgement
 #### I extend my greatest respect to Yifei Sun for the exceptional cleanup work and to Dr. Weijian Yang for the invaluable supervision. I also wish to express my sincere appreciation to those who shared their precious comments on our work.
