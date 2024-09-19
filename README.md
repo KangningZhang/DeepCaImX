@@ -42,6 +42,7 @@
 * Adding training and testing dataset in the sub-folder of "Training Dataset" and "Testing Dataset" separately.
 * (Optional) Put pretrained model in the the sub-folder of "Pretrained Model"
 * Using Anaconda Navigator to launch the virtual environment and opening "DeepCaImX_training_demo.ipynb" for training or "DeepCaImX_testing_demo.ipynb" for predicting.
+* Note: the pre-trained model and testing are based on simulated data via NAOMi method.
 
 ## Data Tailor
 #### A data tailor developed by Matlab is provided to support a basic data tiling processing. In the folder of "Data Tailor", we can find a "tailor.m" script. After running "tailor.m" by matlab, user is able to choose a "tiff" file from a GUI as loading the sample to be tiled. Settings include size of FOV, overlapping area, normalization option, name of output file and output data format. The output files can be found at local folder, which is at the same folder as the "tailor.m".
