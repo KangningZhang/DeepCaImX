@@ -21,13 +21,13 @@
 #### Note: Every package can be installed in a few minutes.
 
 ## Training dataset preparing
-#### We highly recommend to use NAOMi method for generating simulated training and testing dataset. Please check the code in the folder "Simulated Dataset Generator/NAOMi". We high recommand you create your own dataset according to your experiment settings, because the specific DeepCaImX model owns a critical requirement on the types of dataset. The principle of data with ground truth generation are as follows:
-#### 1. Settings of calcium imaging depth in NAOMi code is very important. Please follow your experiment situation. Besides, the signal-to-background ratio is also important. Please feel free to tune the factor of the spike intensity in the NAOMi code to match your experiment situations.
-#### 2. In our project, the generation of denoise, background-suppressed data should merely keep the traces activity of soma in the temporal information (i.e, no background and dentrite activity included), then run the scanning section in the NAOMi code. This output will give you the ground truth of denoised, background-suppressed data.
-#### 3. In this paper, the input of DeepCaImX (which is the raw recordings) should be normalized to 0~1, the denoised BG-suppressed ground truth should be normalized based on the factors of the normalization from the raw recordings.
-#### 4. The order of the ROIs segmentation ground truth should critically obey the order when each indivial neuron first appears, since DeepCaImX is a multi-class segmentation.
-#### 5. The ground truth of the neuron activity traces should not contain any baseline, and merely represent the activity of soma.
-#### Note: more operations for generator code can be found in the section of Dataset generator (NAOMi Version).
+#### We highly recommend using the NAOMi method for generating simulated training datasets. Please refer to the code in the “Simulated Dataset Generator/NAOMi” folder. As a supervised learning approach, the closer the properties of the training dataset are to the real experimental data, the higher the performance of DeepCalmX. Thus we strongly advise setting the parameters in the NAOMi appropriately so the generated videos are tailored to the experimental conditions.  The principles for generating data with ground truth are as follow:
+#### 1. The settings for calcium imaging depth in the NAOMi code are important. Please adjust them according to your experimental conditions. Additionally, the signal-to-background ratio is important. Please you tune the spike intensity factor in the NAOMi code to match your experimental situations.
+#### 2. In our project, the generation of denoised, background-suppressed data should retain only the trace activity of the soma in the temporal information (i.e., excluding background and dendrite activity). After this, run the scanning section in the NAOMi code. This output will provide you with the ground truth of denoised, background-suppressed data.
+#### 3. The input to DeepCaImX (i.e., the raw recordings) should be normalized to a range of 0 to 1. The denoised, background-suppressed ground truth should be normalized using the same factors applied to the raw recordings.
+#### 4. The order of the ROIs segmentation ground truth must strictly follow the sequence in which each individual neuron first appears, as DeepCaImX performs multi-class segmentation.
+#### 5. The ground truth of the neuron activity traces should exclude any baseline and solely represent the activity of the soma.
+#### Note: More details of the generator code can be found in the “Dataset Generator (NAOMi Version)” section.
 
 ## Run DeepCaImX
 #### 1. Mini-version demo
@@ -73,4 +73,4 @@ https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-
 
 
 ## Acknowledge
-#### Please receive my GREATEST RESPECT for Yifei's cleaning up job and Dr. Yang's supervision work. Please also let me express my appreciated to everyone who share me your precious comments on our work.
+#### I extend my greatest respect to Yifei Sun for the exceptional cleanup work and to Dr. Weijian Yang for the invaluable supervision. I also wish to express my sincere appreciation to those who shared their precious comments on our work.
